@@ -4,8 +4,8 @@
 //
 //  Created by Parth gondaliya on 30/11/24.
 //
-
 import SwiftUI
+import CoreData
 
 @main
 struct GitRepoPracticalApp: App {
@@ -13,7 +13,7 @@ struct GitRepoPracticalApp: App {
 
     var body: some Scene {
         WindowGroup {
-            GitReposView()
+            GitReposView(context: persistenceController.container.viewContext)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
