@@ -13,7 +13,7 @@ struct GitRepoPracticalApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GitReposView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

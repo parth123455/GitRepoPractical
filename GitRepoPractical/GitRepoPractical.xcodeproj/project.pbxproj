@@ -16,6 +16,8 @@
 		FF9BC2412CFB408F004FE57B /* GitRepoPracticalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC2402CFB408F004FE57B /* GitRepoPracticalTests.swift */; };
 		FF9BC24B2CFB408F004FE57B /* GitRepoPracticalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC24A2CFB408F004FE57B /* GitRepoPracticalUITests.swift */; };
 		FF9BC24D2CFB408F004FE57B /* GitRepoPracticalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC24C2CFB408F004FE57B /* GitRepoPracticalUITestsLaunchTests.swift */; };
+		FF9BC25A2CFB4A3C004FE57B /* GitReposView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC2592CFB4A3C004FE57B /* GitReposView.swift */; };
+		FF9BC25D2CFB4B57004FE57B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC25C2CFB4B57004FE57B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		FF9BC2462CFB408F004FE57B /* GitRepoPracticalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRepoPracticalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9BC24A2CFB408F004FE57B /* GitRepoPracticalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoPracticalUITests.swift; sourceTree = "<group>"; };
 		FF9BC24C2CFB408F004FE57B /* GitRepoPracticalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoPracticalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF9BC2592CFB4A3C004FE57B /* GitReposView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitReposView.swift; sourceTree = "<group>"; };
+		FF9BC25C2CFB4B57004FE57B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FF9BC25F2CFB4CAF004FE57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +103,10 @@
 		FF9BC2292CFB408D004FE57B /* GitRepoPractical */ = {
 			isa = PBXGroup;
 			children = (
+				FF9BC25F2CFB4CAF004FE57B /* Info.plist */,
+				FF9BC25E2CFB4C1F004FE57B /* View */,
+				FF9BC25B2CFB4B43004FE57B /* Helper */,
 				FF9BC22A2CFB408D004FE57B /* GitRepoPracticalApp.swift */,
-				FF9BC22C2CFB408D004FE57B /* ContentView.swift */,
 				FF9BC22E2CFB408F004FE57B /* Assets.xcassets */,
 				FF9BC2332CFB408F004FE57B /* Persistence.swift */,
 				FF9BC2352CFB408F004FE57B /* GitRepoPractical.xcdatamodeld */,
@@ -131,6 +138,23 @@
 				FF9BC24C2CFB408F004FE57B /* GitRepoPracticalUITestsLaunchTests.swift */,
 			);
 			path = GitRepoPracticalUITests;
+			sourceTree = "<group>";
+		};
+		FF9BC25B2CFB4B43004FE57B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BC25C2CFB4B57004FE57B /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FF9BC25E2CFB4C1F004FE57B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BC2592CFB4A3C004FE57B /* GitReposView.swift */,
+				FF9BC22C2CFB408D004FE57B /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF9BC2342CFB408F004FE57B /* Persistence.swift in Sources */,
+				FF9BC25A2CFB4A3C004FE57B /* GitReposView.swift in Sources */,
 				FF9BC22D2CFB408D004FE57B /* ContentView.swift in Sources */,
 				FF9BC2372CFB408F004FE57B /* GitRepoPractical.xcdatamodeld in Sources */,
 				FF9BC22B2CFB408D004FE57B /* GitRepoPracticalApp.swift in Sources */,
+				FF9BC25D2CFB4B57004FE57B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +458,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GitRepoPractical/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitRepoPractical/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -460,6 +487,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GitRepoPractical/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitRepoPractical/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
