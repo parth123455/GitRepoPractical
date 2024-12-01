@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C109791F50A7BAB8D0532D0 /* Pods_GitRepoPracticalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729BD4F40D0644E9E6153B42 /* Pods_GitRepoPracticalTests.framework */; };
+		702D99744F6A448F45C2FC8B /* Pods_GitRepoPractical_GitRepoPracticalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943E6B553B632CC0DCF775D6 /* Pods_GitRepoPractical_GitRepoPracticalUITests.framework */; };
+		9B0B05DED1CF5210758F32B5 /* Pods_GitRepoPractical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60456981703840A9226372 /* Pods_GitRepoPractical.framework */; };
 		FF9BC22B2CFB408D004FE57B /* GitRepoPracticalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC22A2CFB408D004FE57B /* GitRepoPracticalApp.swift */; };
-		FF9BC22D2CFB408D004FE57B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC22C2CFB408D004FE57B /* ContentView.swift */; };
 		FF9BC22F2CFB408F004FE57B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9BC22E2CFB408F004FE57B /* Assets.xcassets */; };
 		FF9BC2322CFB408F004FE57B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9BC2312CFB408F004FE57B /* Preview Assets.xcassets */; };
 		FF9BC2342CFB408F004FE57B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC2332CFB408F004FE57B /* Persistence.swift */; };
@@ -16,6 +18,16 @@
 		FF9BC2412CFB408F004FE57B /* GitRepoPracticalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC2402CFB408F004FE57B /* GitRepoPracticalTests.swift */; };
 		FF9BC24B2CFB408F004FE57B /* GitRepoPracticalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC24A2CFB408F004FE57B /* GitRepoPracticalUITests.swift */; };
 		FF9BC24D2CFB408F004FE57B /* GitRepoPracticalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC24C2CFB408F004FE57B /* GitRepoPracticalUITestsLaunchTests.swift */; };
+		FF9BC26F2CFB8C0C004FE57B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC2672CFB8C0C004FE57B /* ContentView.swift */; };
+		FF9BC2702CFB8C0C004FE57B /* GitReposView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC2682CFB8C0C004FE57B /* GitReposView.swift */; };
+		FF9BC2712CFB8C0C004FE57B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9BC2692CFB8C0C004FE57B /* Preview Assets.xcassets */; };
+		FF9BC2722CFB8C0C004FE57B /* GitReposModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC26B2CFB8C0C004FE57B /* GitReposModel.xcdatamodeld */; };
+		FF9BC2762CFB8CBC004FE57B /* RepositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC2752CFB8CBC004FE57B /* RepositoryModel.swift */; };
+		FF9BC27B2CFB8D20004FE57B /* KeyChainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC27A2CFB8D20004FE57B /* KeyChainHelper.swift */; };
+		FF9BC27D2CFB8DC0004FE57B /* GitReposViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC27C2CFB8DC0004FE57B /* GitReposViewModel.swift */; };
+		FF9BC27F2CFB90AA004FE57B /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC27E2CFB90AA004FE57B /* Constance.swift */; };
+		FF9BC2C02CFC1B16004FE57B /* ConnectivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC2BF2CFC1B16004FE57B /* ConnectivityHelper.swift */; };
+		FF9BC2C22CFC1C6F004FE57B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC2C12CFC1C6F004FE57B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1873A4092A6395729711F12B /* Pods-GitRepoPractical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoPractical.release.xcconfig"; path = "Target Support Files/Pods-GitRepoPractical/Pods-GitRepoPractical.release.xcconfig"; sourceTree = "<group>"; };
+		729BD4F40D0644E9E6153B42 /* Pods_GitRepoPracticalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitRepoPracticalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2E17C093184F499322A61A /* Pods-GitRepoPractical-GitRepoPracticalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoPractical-GitRepoPracticalUITests.debug.xcconfig"; path = "Target Support Files/Pods-GitRepoPractical-GitRepoPracticalUITests/Pods-GitRepoPractical-GitRepoPracticalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		938B56BDCF96A731CECC0A4E /* Pods-GitRepoPractical-GitRepoPracticalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoPractical-GitRepoPracticalUITests.release.xcconfig"; path = "Target Support Files/Pods-GitRepoPractical-GitRepoPracticalUITests/Pods-GitRepoPractical-GitRepoPracticalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		943E6B553B632CC0DCF775D6 /* Pods_GitRepoPractical_GitRepoPracticalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitRepoPractical_GitRepoPracticalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		959980F65E44A09D7EC2275F /* Pods-GitRepoPractical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoPractical.debug.xcconfig"; path = "Target Support Files/Pods-GitRepoPractical/Pods-GitRepoPractical.debug.xcconfig"; sourceTree = "<group>"; };
+		BB60456981703840A9226372 /* Pods_GitRepoPractical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitRepoPractical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE42366AF108ABBD33A52A7B /* Pods-GitRepoPracticalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoPracticalTests.debug.xcconfig"; path = "Target Support Files/Pods-GitRepoPracticalTests/Pods-GitRepoPracticalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC5435F58764E66F0E6E168A /* Pods-GitRepoPracticalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoPracticalTests.release.xcconfig"; path = "Target Support Files/Pods-GitRepoPracticalTests/Pods-GitRepoPracticalTests.release.xcconfig"; sourceTree = "<group>"; };
 		FF9BC2272CFB408D004FE57B /* GitRepoPractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitRepoPractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9BC22A2CFB408D004FE57B /* GitRepoPracticalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoPracticalApp.swift; sourceTree = "<group>"; };
-		FF9BC22C2CFB408D004FE57B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF9BC22E2CFB408F004FE57B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF9BC2312CFB408F004FE57B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF9BC2332CFB408F004FE57B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +68,17 @@
 		FF9BC2462CFB408F004FE57B /* GitRepoPracticalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRepoPracticalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9BC24A2CFB408F004FE57B /* GitRepoPracticalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoPracticalUITests.swift; sourceTree = "<group>"; };
 		FF9BC24C2CFB408F004FE57B /* GitRepoPracticalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoPracticalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF9BC25F2CFB4CAF004FE57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FF9BC2672CFB8C0C004FE57B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF9BC2682CFB8C0C004FE57B /* GitReposView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitReposView.swift; sourceTree = "<group>"; };
+		FF9BC2692CFB8C0C004FE57B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF9BC26C2CFB8C0C004FE57B /* GitReposModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GitReposModel.xcdatamodel; sourceTree = "<group>"; };
+		FF9BC2752CFB8CBC004FE57B /* RepositoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryModel.swift; sourceTree = "<group>"; };
+		FF9BC27A2CFB8D20004FE57B /* KeyChainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainHelper.swift; sourceTree = "<group>"; };
+		FF9BC27C2CFB8DC0004FE57B /* GitReposViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitReposViewModel.swift; sourceTree = "<group>"; };
+		FF9BC27E2CFB90AA004FE57B /* Constance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constance.swift; sourceTree = "<group>"; };
+		FF9BC2BF2CFC1B16004FE57B /* ConnectivityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityHelper.swift; sourceTree = "<group>"; };
+		FF9BC2C12CFC1C6F004FE57B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0B05DED1CF5210758F32B5 /* Pods_GitRepoPractical.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C109791F50A7BAB8D0532D0 /* Pods_GitRepoPracticalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702D99744F6A448F45C2FC8B /* Pods_GitRepoPractical_GitRepoPracticalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E406C2DE30770B94D8403B5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				959980F65E44A09D7EC2275F /* Pods-GitRepoPractical.debug.xcconfig */,
+				1873A4092A6395729711F12B /* Pods-GitRepoPractical.release.xcconfig */,
+				7D2E17C093184F499322A61A /* Pods-GitRepoPractical-GitRepoPracticalUITests.debug.xcconfig */,
+				938B56BDCF96A731CECC0A4E /* Pods-GitRepoPractical-GitRepoPracticalUITests.release.xcconfig */,
+				BE42366AF108ABBD33A52A7B /* Pods-GitRepoPracticalTests.debug.xcconfig */,
+				CC5435F58764E66F0E6E168A /* Pods-GitRepoPracticalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0D3B3725F262365AAAE4CF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB60456981703840A9226372 /* Pods_GitRepoPractical.framework */,
+				943E6B553B632CC0DCF775D6 /* Pods_GitRepoPractical_GitRepoPracticalUITests.framework */,
+				729BD4F40D0644E9E6153B42 /* Pods_GitRepoPracticalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF9BC21E2CFB408D004FE57B = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +139,8 @@
 				FF9BC23F2CFB408F004FE57B /* GitRepoPracticalTests */,
 				FF9BC2492CFB408F004FE57B /* GitRepoPracticalUITests */,
 				FF9BC2282CFB408D004FE57B /* Products */,
+				E406C2DE30770B94D8403B5E /* Pods */,
+				F0D3B3725F262365AAAE4CF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +157,16 @@
 		FF9BC2292CFB408D004FE57B /* GitRepoPractical */ = {
 			isa = PBXGroup;
 			children = (
+				FF9BC2792CFB8D0F004FE57B /* Helper */,
+				FF9BC2782CFB8D00004FE57B /* ModelView */,
+				FF9BC2772CFB8CED004FE57B /* View */,
+				FF9BC2742CFB8CA9004FE57B /* Models */,
+				FF9BC26A2CFB8C0C004FE57B /* Preview Content */,
+				FF9BC25F2CFB4CAF004FE57B /* Info.plist */,
 				FF9BC22A2CFB408D004FE57B /* GitRepoPracticalApp.swift */,
-				FF9BC22C2CFB408D004FE57B /* ContentView.swift */,
 				FF9BC22E2CFB408F004FE57B /* Assets.xcassets */,
 				FF9BC2332CFB408F004FE57B /* Persistence.swift */,
+				FF9BC26B2CFB8C0C004FE57B /* GitReposModel.xcdatamodeld */,
 				FF9BC2352CFB408F004FE57B /* GitRepoPractical.xcdatamodeld */,
 				FF9BC2302CFB408F004FE57B /* Preview Content */,
 			);
@@ -133,6 +198,50 @@
 			path = GitRepoPracticalUITests;
 			sourceTree = "<group>";
 		};
+		FF9BC26A2CFB8C0C004FE57B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BC2692CFB8C0C004FE57B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF9BC2742CFB8CA9004FE57B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BC2752CFB8CBC004FE57B /* RepositoryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF9BC2772CFB8CED004FE57B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BC2672CFB8C0C004FE57B /* ContentView.swift */,
+				FF9BC2682CFB8C0C004FE57B /* GitReposView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF9BC2782CFB8D00004FE57B /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BC27C2CFB8DC0004FE57B /* GitReposViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		FF9BC2792CFB8D0F004FE57B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BC27A2CFB8D20004FE57B /* KeyChainHelper.swift */,
+				FF9BC27E2CFB90AA004FE57B /* Constance.swift */,
+				FF9BC2BF2CFC1B16004FE57B /* ConnectivityHelper.swift */,
+				FF9BC2C12CFC1C6F004FE57B /* Extensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF9BC2502CFB408F004FE57B /* Build configuration list for PBXNativeTarget "GitRepoPractical" */;
 			buildPhases = (
+				A9D155C55CDF9789921013F5 /* [CP] Check Pods Manifest.lock */,
 				FF9BC2232CFB408D004FE57B /* Sources */,
 				FF9BC2242CFB408D004FE57B /* Frameworks */,
 				FF9BC2252CFB408D004FE57B /* Resources */,
+				08368B8BF395B5E15ADF8F76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF9BC2532CFB408F004FE57B /* Build configuration list for PBXNativeTarget "GitRepoPracticalTests" */;
 			buildPhases = (
+				7F78A0044007DEB970D77801 /* [CP] Check Pods Manifest.lock */,
 				FF9BC2382CFB408F004FE57B /* Sources */,
 				FF9BC2392CFB408F004FE57B /* Frameworks */,
 				FF9BC23A2CFB408F004FE57B /* Resources */,
@@ -175,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF9BC2562CFB408F004FE57B /* Build configuration list for PBXNativeTarget "GitRepoPracticalUITests" */;
 			buildPhases = (
+				9B70138CBD88D53F6D690417 /* [CP] Check Pods Manifest.lock */,
 				FF9BC2422CFB408F004FE57B /* Sources */,
 				FF9BC2432CFB408F004FE57B /* Frameworks */,
 				FF9BC2442CFB408F004FE57B /* Resources */,
+				2F4E187F31FD015527C926A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF9BC2322CFB408F004FE57B /* Preview Assets.xcassets in Resources */,
+				FF9BC2712CFB8C0C004FE57B /* Preview Assets.xcassets in Resources */,
 				FF9BC22F2CFB408F004FE57B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,14 +373,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08368B8BF395B5E15ADF8F76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitRepoPractical/Pods-GitRepoPractical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitRepoPractical/Pods-GitRepoPractical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitRepoPractical/Pods-GitRepoPractical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F4E187F31FD015527C926A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitRepoPractical-GitRepoPracticalUITests/Pods-GitRepoPractical-GitRepoPracticalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitRepoPractical-GitRepoPracticalUITests/Pods-GitRepoPractical-GitRepoPracticalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitRepoPractical-GitRepoPracticalUITests/Pods-GitRepoPractical-GitRepoPracticalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F78A0044007DEB970D77801 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitRepoPracticalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B70138CBD88D53F6D690417 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitRepoPractical-GitRepoPracticalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D155C55CDF9789921013F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitRepoPractical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF9BC2232CFB408D004FE57B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9BC27D2CFB8DC0004FE57B /* GitReposViewModel.swift in Sources */,
 				FF9BC2342CFB408F004FE57B /* Persistence.swift in Sources */,
-				FF9BC22D2CFB408D004FE57B /* ContentView.swift in Sources */,
+				FF9BC2702CFB8C0C004FE57B /* GitReposView.swift in Sources */,
 				FF9BC2372CFB408F004FE57B /* GitRepoPractical.xcdatamodeld in Sources */,
+				FF9BC27B2CFB8D20004FE57B /* KeyChainHelper.swift in Sources */,
+				FF9BC26F2CFB8C0C004FE57B /* ContentView.swift in Sources */,
+				FF9BC2722CFB8C0C004FE57B /* GitReposModel.xcdatamodeld in Sources */,
+				FF9BC2C22CFC1C6F004FE57B /* Extensions.swift in Sources */,
+				FF9BC2762CFB8CBC004FE57B /* RepositoryModel.swift in Sources */,
+				FF9BC2C02CFC1B16004FE57B /* ConnectivityHelper.swift in Sources */,
+				FF9BC27F2CFB90AA004FE57B /* Constance.swift in Sources */,
 				FF9BC22B2CFB408D004FE57B /* GitRepoPracticalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,7 +581,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -412,7 +638,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -424,6 +650,7 @@
 		};
 		FF9BC2512CFB408F004FE57B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959980F65E44A09D7EC2275F /* Pods-GitRepoPractical.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -431,12 +658,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GitRepoPractical/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitRepoPractical/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +682,7 @@
 		};
 		FF9BC2522CFB408F004FE57B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1873A4092A6395729711F12B /* Pods-GitRepoPractical.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,12 +690,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GitRepoPractical/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitRepoPractical/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,6 +714,7 @@
 		};
 		FF9BC2542CFB408F004FE57B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE42366AF108ABBD33A52A7B /* Pods-GitRepoPracticalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +734,7 @@
 		};
 		FF9BC2552CFB408F004FE57B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5435F58764E66F0E6E168A /* Pods-GitRepoPracticalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +754,7 @@
 		};
 		FF9BC2572CFB408F004FE57B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D2E17C093184F499322A61A /* Pods-GitRepoPractical-GitRepoPracticalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +772,7 @@
 		};
 		FF9BC2582CFB408F004FE57B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938B56BDCF96A731CECC0A4E /* Pods-GitRepoPractical-GitRepoPracticalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -599,6 +837,16 @@
 			);
 			currentVersion = FF9BC2362CFB408F004FE57B /* GitRepoPractical.xcdatamodel */;
 			path = GitRepoPractical.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		FF9BC26B2CFB8C0C004FE57B /* GitReposModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF9BC26C2CFB8C0C004FE57B /* GitReposModel.xcdatamodel */,
+			);
+			currentVersion = FF9BC26C2CFB8C0C004FE57B /* GitReposModel.xcdatamodel */;
+			path = GitReposModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
