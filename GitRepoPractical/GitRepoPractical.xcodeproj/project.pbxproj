@@ -26,6 +26,8 @@
 		FF9BC27B2CFB8D20004FE57B /* KeyChainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC27A2CFB8D20004FE57B /* KeyChainHelper.swift */; };
 		FF9BC27D2CFB8DC0004FE57B /* GitReposViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC27C2CFB8DC0004FE57B /* GitReposViewModel.swift */; };
 		FF9BC27F2CFB90AA004FE57B /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC27E2CFB90AA004FE57B /* Constance.swift */; };
+		FF9BC2C02CFC1B16004FE57B /* ConnectivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC2BF2CFC1B16004FE57B /* ConnectivityHelper.swift */; };
+		FF9BC2C22CFC1C6F004FE57B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC2C12CFC1C6F004FE57B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		FF9BC27A2CFB8D20004FE57B /* KeyChainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainHelper.swift; sourceTree = "<group>"; };
 		FF9BC27C2CFB8DC0004FE57B /* GitReposViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitReposViewModel.swift; sourceTree = "<group>"; };
 		FF9BC27E2CFB90AA004FE57B /* Constance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constance.swift; sourceTree = "<group>"; };
+		FF9BC2BF2CFC1B16004FE57B /* ConnectivityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityHelper.swift; sourceTree = "<group>"; };
+		FF9BC2C12CFC1C6F004FE57B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +236,8 @@
 			children = (
 				FF9BC27A2CFB8D20004FE57B /* KeyChainHelper.swift */,
 				FF9BC27E2CFB90AA004FE57B /* Constance.swift */,
+				FF9BC2BF2CFC1B16004FE57B /* ConnectivityHelper.swift */,
+				FF9BC2C12CFC1C6F004FE57B /* Extensions.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -482,7 +488,9 @@
 				FF9BC27B2CFB8D20004FE57B /* KeyChainHelper.swift in Sources */,
 				FF9BC26F2CFB8C0C004FE57B /* ContentView.swift in Sources */,
 				FF9BC2722CFB8C0C004FE57B /* GitReposModel.xcdatamodeld in Sources */,
+				FF9BC2C22CFC1C6F004FE57B /* Extensions.swift in Sources */,
 				FF9BC2762CFB8CBC004FE57B /* RepositoryModel.swift in Sources */,
+				FF9BC2C02CFC1B16004FE57B /* ConnectivityHelper.swift in Sources */,
 				FF9BC27F2CFB90AA004FE57B /* Constance.swift in Sources */,
 				FF9BC22B2CFB408D004FE57B /* GitRepoPracticalApp.swift in Sources */,
 			);
