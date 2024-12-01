@@ -1,0 +1,6 @@
+framework module Pods_GitRepoPractical {
+  umbrella header "Pods-GitRepoPractical-umbrella.h"
+
+  export *
+  module * { export * }
+}

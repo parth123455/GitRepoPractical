@@ -30,5 +30,9 @@ struct Constants {
     static let searchRepoName = "Search repositories..."
     static let loading = "Loading..."
     static let repositories = "Repositories List"
+    static let noDescription = "No Description"
+    static let stars = "Stars"
+    static let forks = "Forks"
+    static let lastUpdatedAt = "Last updated at"
     
 }
